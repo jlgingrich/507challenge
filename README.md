@@ -1,8 +1,8 @@
 # The 507 Challenge
 
-| Think you can survive the infinite dimensions? Lets find out!
+> Think you can survive the infinite dimensions? Lets find out!
 
-This Python script hosts and interfaces with a dedicated server running [Minecraft Java Edition 20w14∞](https://minecraft.fandom.com/wiki/Java_Edition_20w14%E2%88%9E) in order to create a sort of "challenge mode". Much like a certain [507](https://scp-wiki.wikidot.com/scp-507), all players in the server will be randomly transported between dimensions at random intervals. Because this is the "Ultimate Content" joke snapshot, which adds new procedurally generated dimensions that randomize existing elements of the game and several [easter egg dimensions](https://minecraft.fandom.com/wiki/Java_Edition_20w14%E2%88%9E#Easter_egg_dimensions), this can land you just about anywhere.
+This Python script hosts and interfaces with a dedicated server running [Minecraft Java Edition 20w14∞](https://minecraft.fandom.com/wiki/Java_Edition_20w14%E2%88%9E) in order to create a sort of "challenge mode". Much like a certain [507](https://scp-wiki.wikidot.com/scp-507), all players in the server will be randomly transported between dimensions at random intervals. Because this is the "Ultimate Content" April Fools' snapshot, which adds new procedurally generated dimensions that randomize existing elements of the game and several [easter egg dimensions](https://minecraft.fandom.com/wiki/Java_Edition_20w14%E2%88%9E#Easter_egg_dimensions), this can land you just about anywhere.
 
 ## Config
 
@@ -29,6 +29,10 @@ CONFIG = {
 }
 ```
 
+## Dependencies:
+- [mcdreforged >=2.0.0-alpha.1](https://github.com/Fallen-Breath/MCDReforged): Install with `pip install mcdreforged`
+- [Minecraft Java Edition 20w14∞](https://minecraft.fandom.com/wiki/Java_Edition_20w14%E2%88%9E) dedicated server `.JAR`. I don't have a link, as this needs to be downloaded via a Minecraft client from Mojang's servers.
+
 ## Running
 
 Run `mcdreforged init`, then move `challenge507.py` into the `plugins/` folder and move your `minecraft_server.jar` into the `server/` folder
@@ -50,8 +54,4 @@ my_mcdr_server/
  └─ permission.yml
 ```
 
-You can now start the server from that directory with `mcdreforged`.
-
-## Dependencies:
-- [mcdreforged >=2.0.0-alpha.1](https://github.com/Fallen-Breath/MCDReforged): Install with `pip install mcdreforged`
-- [Minecraft Java Edition 20w14∞](https://minecraft.fandom.com/wiki/Java_Edition_20w14%E2%88%9E) dedicated server `.JAR`. I don't have a link, as this needs to be downloaded via a Minecraft client from Mojang's servers.
+You can now start the server from that directory with `mcdreforged`. Have fun!
